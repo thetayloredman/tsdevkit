@@ -1,0 +1,16 @@
+{
+  "name": "tskit",
+  "version": "0.0.0",
+  "description": "A TypeScript toolkit! Includes everything you need to make any kind of project.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "ts"
+  ],
+  "author": "BadBoyHaloCat",
+  "license": "GPL-3.0"
+}
