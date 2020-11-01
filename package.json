@@ -1,6 +1,6 @@
 {
   "name": "tsdevkit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A TypeScript Development toolkit! Includes everything you need to make any kind of project.",
   "main": "dist/index.js",
   "scripts": {
