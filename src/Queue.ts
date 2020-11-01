@@ -17,6 +17,10 @@
  */
 
 // Main
+/**
+ * Describes a priority queue.
+ * @property {T[]} queue The priority queue
+ */
 export class Queue<T> {
     public constructor(initialData?: T[]) {
         this.queue = initialData ?? [];

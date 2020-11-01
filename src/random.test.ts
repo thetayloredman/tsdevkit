@@ -16,6 +16,13 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-// Main
-export * from './Queue';
-export * from './random';
+import { random } from './random';
+
+describe('random', () => {
+    test('returns undefined when passed an empty array', () => {
+        expect(random([])).toBe(undefined);
+    });
+    test('always returns the first item in a 1 item array', () => {
+        expect(random([ 'foo' ])).toBe('foo');
+    });
+});

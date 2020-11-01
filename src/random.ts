@@ -17,5 +17,11 @@
  */
 
 // Main
-export * from './Queue';
-export * from './random';
+/**
+ * Returns a random item from an Array
+ * @function
+ * @param {any[]} data The array to get an item from
+ */
+export function random<T>(data: T[]): T {
+    return data[Math.floor(Math.random() * data.length)];
+}
