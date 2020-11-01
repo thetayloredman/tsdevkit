@@ -1,5 +1,5 @@
 /**
- * tskit -- A TypeScript toolkit! Includes everything you need to make any kind of project!
+ * tstoolkit -- A TypeScript toolkit! Includes everything you need to make any kind of project!
  * Copyright (C) 2020  BadBoyHaloCat
  * 
  * This program is free software: you can redistribute it and/or modify
