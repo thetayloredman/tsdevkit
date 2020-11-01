@@ -25,4 +25,7 @@ describe('random', () => {
     test('always returns the first item in a 1 item array', () => {
         expect(random([ 'foo' ])).toBe('foo');
     });
+    test('does not return undefined on an array', () => {
+        expect(random([ 'foo', 'bar', 'baz' ])).not.toBe(undefined);
+    });
 });
