@@ -1,7 +1,7 @@
 {
-  "name": "tstoolkit",
+  "name": "tsdevkit",
   "version": "0.0.0",
-  "description": "A TypeScript toolkit! Includes everything you need to make any kind of project.",
+  "description": "A TypeScript Development toolkit! Includes everything you need to make any kind of project.",
   "main": "dist/index.js",
   "scripts": {
     "test": "npm run prepare; jest",
